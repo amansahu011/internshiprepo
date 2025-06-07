@@ -1,6 +1,6 @@
 # Real-Time Collaborative Task Board
 
-A *real-time task management board* like Trello — built with *React + Vite + Tailwind CSS + Firebase Realtime Database*.
+A *real-time task management board*  — built with *React + Vite + Tailwind CSS + Firebase Realtime Database*.
 
 > 
 
