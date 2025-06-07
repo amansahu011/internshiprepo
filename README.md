@@ -8,11 +8,11 @@ A *real-time task management board* like Trello — built with *React + Vite + T
 
 ##  Features
 
-- ✅ Create, update, and delete columns
-- ✅ Create, update, and delete tasks within columns
-- ✅ Drag and drop tasks between columns (and reorder)
-- ✅ Real-time sync across all users (Firebase Realtime DB)
-- ✅ Online users presence tracking
+-  Create, update, and delete columns
+-  Create, update, and delete tasks within columns
+-  Drag and drop tasks between columns (and reorder)
+-  Real-time sync across all users (Firebase Realtime DB)
+-  Online users presence tracking
 
 ---
 
