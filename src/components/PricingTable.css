@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eef4fb;
+  padding: 20px;
+}
+
+.pricing-table {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.column {
+  background-color: #f0f8ff;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.label-column {
+  text-align: left;
+  width: 400px;
+}
+
+.column .cell {
+  padding: 12px;
+  border-bottom: 1px solid #d0e6f9;
+  min-width: 150px;
+  text-align: center;
+}
+
+.column .cell.header {
+  background-color: #d8ebff;
+  font-weight: bold;
+  text-align: center;
+}
+
+.label-column .cell {
+  background-color: #f0f8ff;
+  font-weight: bold;
+  text-align: left;
+}
+
+.buy-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  background-color: #2196f3;
+}
+
+.cell.header:empty {
+  border: none;
+  background: transparent;
+  background-color: #f0f8ff;
+}
